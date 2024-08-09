@@ -14,4 +14,11 @@ chrome.runtime.onInstalled.addListener(() => {
     createNotification("YouTube Ads Skipper Installed, Happy Watching:D", "The extension has been succesfully installed.");
 });
 
-chrome.runtime.onMessage.addListener()
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    if (request.action === 'activate') {
+        createNotification("YouTube Ad Skipper Activated", "The extension is now active.");
+    }
+    else if (request.action === deactivate) {
+        createNotification("YouTube Ad Skipper Deactivated", "The extension has been deactivated.");
+    }
+});
