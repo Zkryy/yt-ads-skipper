@@ -21,15 +21,15 @@
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "example.png",
-        "48": "example.png",
-        "128": "example.png"
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
       }
     },
     "icons": {
-      "16": "example.png",
-      "48": "example.png",
-      "128": "example.png"
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
     }
   }
   
