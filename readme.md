@@ -11,7 +11,7 @@
 ## Installation (Using `.crx` File)
 
 1. **Download the `.crx` File**:
-   - Obtain the `.crx` file from the source you were provided. This is the packed extension file.
+   - Obtain the `.crx` file from the source `Releases`. This is the packed extension file.
 
 2. **Install the Extension**:
    - Open Chrome and go to `chrome://extensions/`.
