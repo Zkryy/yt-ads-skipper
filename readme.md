@@ -8,6 +8,8 @@
 - Works across different languages and ad formats.
 - Simple on/off toggle via the extension's popup interface.
 
+**Note**: Currently the `.crx` file can't be loaded properly, please use the **Unpacked Version**
+
 ## Installation (Using `.crx` File)
 
 1. **Download the `.crx` File**:
